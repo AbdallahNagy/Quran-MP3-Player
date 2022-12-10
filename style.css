@@ -21,6 +21,11 @@ body {
     border-radius: 20px;
 }
 
+input {
+    /* -webkit-appearance: none; */
+    /* color:rgb(5, 61, 61); */
+}
+
 #btn-container {
     display: flex;
     justify-content: space-evenly;
@@ -30,7 +35,38 @@ button {
     width: 50px;
     height: 50px;
     border-radius: 100%;
+    color: darkslategrey;
+    font-weight: bold;
     border: transparent;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkslategrey;
+    color: white;
+}
+
+.playlist {
+    background-color:darkgray;
+    height: 150px;
+    width: 290px;
+    border-radius: 20px;
+}
+
+.playlist div {
+    height: 25%;
+    color: rgb(5, 61, 61);
+}
+
+.playlist div h2 {
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: larger;
+}
+
+.playlist div:hover {
+    background-color: rgb(5, 61, 61);
+    color:aliceblue;
     cursor: pointer;
 }
 
