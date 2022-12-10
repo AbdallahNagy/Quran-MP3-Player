@@ -21,11 +21,6 @@ body {
     border-radius: 20px;
 }
 
-input {
-    /* -webkit-appearance: none; */
-    /* color:rgb(5, 61, 61); */
-}
-
 #btn-container {
     display: flex;
     justify-content: space-evenly;
